@@ -10,7 +10,7 @@ A project for NMA_CN _2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yu
 **Dataset:**
 - Steinmetz dataset
 
-**work plan**
+**Work plan:**
 
 0725
 - decoder using hidden state sequence to predict behaviour/trial_types  Jing
@@ -35,8 +35,8 @@ A project for NMA_CN _2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yu
 - Accessing data: Ula, Peng, Farnaz
 
 **To do list:**
-- explore how to use Steinmetz dataset, refer to dataset notebook
-- explore how to use PossionHMM to find hidden states, refer to notebook
+- explore how to use Steinmetz dataset, refer to [dataset notebook](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/main/projects/neurons/load_steinmetz_decisions.ipynb)
+- explore how to use PossionHMM to find hidden states, refer to [ssm notebook](https://github.com/lindermanlab/ssm/blob/master/notebooks/Poisson%20HMM%20Demo.ipynb); and how to analysis hidden states, refer to [this one](https://github.com/mazzulab/ANDA_HMM_Course/blob/main/HMM-Introduction_ANDA_Solutions.ipynb)
     - ssm packages
 - find the hidden states across different areas
     - focus on certain areas, eg, motor areas, visual cortex
@@ -48,6 +48,6 @@ A project for NMA_CN _2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yu
     - quantify the difference of state sequence across trial_types
         - transition time
         - interval distribution
-    - construct a decoder for predicting trial_types from hidden state sequences
+- construct a decoder for predicting trial_types from hidden state sequences
 - compare the state sequence difference in different trial types across different brain areas
     - to find which areas play a important role in defferent trials
