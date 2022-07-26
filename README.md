@@ -32,6 +32,12 @@ A project for NMA_CN_2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yuy
 
 **Work plan:**
 
+7/26
+- decoder using firing rate/hidden states in vis_ctx/motor_ctx **Jing**, **Yidan**
+- hidden states across trials in vis_stimuli **Farnaz**, **Peng**
+- statistical features of hidden states sequences in vis_ctx/motor_ctx  **Yuyang**
+- hidden states found in *where* meaning result/reward(correct/incorrect)   **Ula**
+
 7/25
 - decoder using hidden state sequence to predict behaviour/trial_types  Jing
 - statistal features in different trial_types/different event_periods   Yuyang
