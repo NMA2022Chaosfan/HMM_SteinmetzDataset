@@ -24,6 +24,7 @@ A project for NMA_CN_2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yuy
             - best num of hidden state
             - statistical features of hidden states sequences
         - hidden states found in *where* meaning result/reward(correct/incorrect)
+    - ... (unfinished)
 
 **Dataset:**
 - Steinmetz dataset
