@@ -11,19 +11,20 @@ A project for NMA_CN_2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yuy
 - What actually happened during information transfer from vis_ctx to motor_ctx?
     - behaviour level: 
         - vis_stimuli(L/equal/R) ---- move_direction(L/No/R) ---- result/reward(correct/incorrect)
-    - observed level/firing rate level/decoder level: 
+    - observed level/firing rate level/decoder level: **Jing**, **Yidan**
         - decoding accuracy (using firing rate in vis_ctx) better in vis_stimuli than move_direction
         - decoding accuracy (using firing rate in motor_ctx) better in move_direction than vis_stimuli
     - unobserved level/hidden states level:
-        - hidden states found in vis_ctx meaning vis_stimuli(L/equal/R)
-            - states across trials
+        - hidden states found in vis_ctx meaning vis_stimuli(L/equal/R)  
+            - states across trials      **Farnaz**, **Peng**
             - best num of hidden state
-            - statistical features of hidden states sequences
-        - hidden states found in motor_ctx meaning move_direction(L/No/R)
+            - statistical features of hidden states sequences    **Yuyang**
+        - hidden states found in motor_ctx meaning move_direction(L/No/R)   
             - states across time/trials
             - best num of hidden state
-            - statistical features of hidden states sequences
-        - hidden states found in *where* meaning result/reward(correct/incorrect)
+            - statistical features of hidden states sequences    **Yuyang**
+        - hidden states found in *where* meaning result/reward(correct/incorrect)   **Ula**
+    - decoder using hidden states in vis_ctx/motor_ctx  **Jing**, **Yidan**
     - ... (unfinished)
 
 **Dataset:**
