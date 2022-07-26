@@ -12,7 +12,7 @@ A project for NMA_CN _2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yu
 
 **Work plan:**
 
-0725
+7/25
 - decoder using hidden state sequence to predict behaviour/trial_types  Jing
 - statistal features in different trial_types/different event_periods   Yuyang
 - !!! what the meaning of the hidden states
