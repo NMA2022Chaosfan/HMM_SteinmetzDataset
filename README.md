@@ -11,20 +11,20 @@ A project for NMA_CN_2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yuy
 - What actually happened during information transfer from vis_ctx to motor_ctx?
     - behaviour level: 
         - vis_stimuli(L/equal/R) ---- move_direction(L/No/R) ---- result/reward(correct/incorrect)
-    - observed level/firing rate level/decoder level: **Jing**, **Yidan**
+    - observed level/firing rate level/decoder level: 
         - decoding accuracy (using firing rate in vis_ctx) better in vis_stimuli than move_direction
         - decoding accuracy (using firing rate in motor_ctx) better in move_direction than vis_stimuli
     - unobserved level/hidden states level:
         - hidden states found in vis_ctx meaning vis_stimuli(L/equal/R)  
-            - states across trials      **Farnaz**, **Peng**
+            - states across trials      
             - best num of hidden state
-            - statistical features of hidden states sequences    **Yuyang**
+            - statistical features of hidden states sequences    
         - hidden states found in motor_ctx meaning move_direction(L/No/R)   
             - states across time/trials
             - best num of hidden state
-            - statistical features of hidden states sequences    **Yuyang**
-        - hidden states found in *where* meaning result/reward(correct/incorrect)   **Ula**
-    - decoder using hidden states in vis_ctx/motor_ctx  **Jing**, **Yidan**
+            - statistical features of hidden states sequences    
+        - hidden states found in *where* meaning result/reward(correct/incorrect)   
+    - decoder using hidden states in vis_ctx/motor_ctx  
     - ... (unfinished)
 
 **Dataset:**
@@ -62,6 +62,7 @@ A project for NMA_CN_2022 by Chaosfan group (Farnaz, Jing, Peng, Ula, Yidan, Yuy
 
 **To do list:**
 - explore how to use Steinmetz dataset, refer to [dataset notebook](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/main/projects/neurons/load_steinmetz_decisions.ipynb)
+    - organize data refer to [this repo](https://github.com/MouseLand/steinmetz2019_NMA)
 - explore how to use PossionHMM to find hidden states, refer to [ssm notebook](https://github.com/lindermanlab/ssm/blob/master/notebooks/Poisson%20HMM%20Demo.ipynb); and how to analysis hidden states, refer to [this one](https://github.com/mazzulab/ANDA_HMM_Course/blob/main/HMM-Introduction_ANDA_Solutions.ipynb)
     - ssm packages
 - find the hidden states across different areas
